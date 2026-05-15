@@ -46,7 +46,9 @@ button:active{
     color: rgb(99, 99, 99);
 }
 
-p{
+p,
+h1,
+h2{
     max-width: 700px;
     text-align: center;
 }
@@ -101,7 +103,7 @@ a:hover{
 #images{
     margin: 64px 0;
 
-    height: min(80vh, 600px);
+    height: 435px;
     width: min(100vw, 750px);
     display: flex;
     gap: 12px;
